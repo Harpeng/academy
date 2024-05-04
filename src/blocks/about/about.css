@@ -1,0 +1,22 @@
+.about {
+    padding: 40px 0 68px var(--padding-adaptive);
+    background-image: url(../../images/back.png);
+}
+
+@media screen and (max-width: 1524px) {
+    .about {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about {
+        padding: 20px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 10px 0 20px 0;
+    }
+}

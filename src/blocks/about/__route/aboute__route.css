@@ -1,0 +1,12 @@
+.about__route {
+    display: inline;
+    font-weight: 400;
+    font-size: clamp(0.75rem, 0.6893rem + 0.2589vw, 1rem);
+    color: #878787;
+}
+
+.about__route + .about__route::before {
+    padding: 4px;
+    color: #878787;
+    content: "/\00a0";
+}

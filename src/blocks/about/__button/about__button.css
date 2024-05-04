@@ -1,0 +1,14 @@
+.about__button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 26px;
+}
+
+.about__button_active {
+    padding-bottom: 0;
+}

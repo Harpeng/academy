@@ -1,0 +1,6 @@
+.about__point {
+    font-size: clamp(0.875rem, 0.8143rem + 0.2589vw, 1.125rem);
+    line-height: 156%;
+    font-weight: 300;
+    margin: 0;
+}

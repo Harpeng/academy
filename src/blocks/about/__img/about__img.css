@@ -1,0 +1,10 @@
+.about__img {
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1200px) {
+    .about__img {
+        order: 1;
+        width: 100%;
+    }
+}

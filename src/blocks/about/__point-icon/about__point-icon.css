@@ -1,0 +1,6 @@
+.about__point-icon {
+    background-image: url(../../../images/Arrow.svg);
+    width: 20px;
+    height: 20px;
+    rotate: -90deg;
+}

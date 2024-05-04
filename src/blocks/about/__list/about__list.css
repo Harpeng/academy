@@ -1,0 +1,15 @@
+.about__list {
+    max-width: 330px;
+    list-style: none;
+    padding-left: 21px;
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    .about__list {
+        order: 2;
+    }
+}

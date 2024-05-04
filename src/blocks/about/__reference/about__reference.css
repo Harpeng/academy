@@ -1,0 +1,11 @@
+.about__reference {
+    display: flex;
+    gap: 72px;
+}
+
+@media screen and (max-width: 1200px) {
+    .about__reference {
+        flex-direction: column;
+        gap: 0;
+    }
+}

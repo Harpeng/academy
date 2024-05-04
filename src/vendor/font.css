@@ -1,0 +1,28 @@
+@font-face { 
+    font-family: 'Museo Sans Cyrl'; 
+    font-weight: 700; 
+    src: url(../vendor/fonts/AnyConv.com__MuseoSansCyrl700.woff2),
+         url(../vendor/fonts/MuseoSansCyrl700.woff); 
+} 
+
+@font-face { 
+    font-family: 'Museo Sans Cyrl'; 
+    font-weight: 500; 
+    src: url(../vendor/fonts/AnyConv.com__MuseoSansCyrl500.woff2), 
+         url(../vendor/fonts/MuseoSansCyrl500.woff);  
+} 
+
+@font-face { 
+    font-family: 'Museo Sans Cyrl'; 
+    font-weight: 500; 
+    font-style: italic;
+    src: url(../vendor/fonts/AnyConv.com__MuseoSansCyrl500Italic.woff2), 
+         url(../vendor/fonts/MuseoSansCyrl500Italic.woff);  
+} 
+
+@font-face { 
+    font-family: 'Museo Sans Cyrl'; 
+    font-weight: 300; 
+    src: url(../vendor/fonts/AnyConv.com__MuseoSansCyrl300.woff2),
+         url(../vendor/fonts/MuseoSansCyrl300.woff);  
+} 
