@@ -1,0 +1,6 @@
+.statistics__text {
+    margin: 7px 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: clamp(0.875rem, 0.8143rem + 0.2589vw, 1.125rem);
+}

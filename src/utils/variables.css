@@ -3,5 +3,6 @@
     --main-text-color: #1F2533;
     --secondary-text-color: #000000;
     --secondary-color: #FD3C76;
-    --padding-adaptive: calc(18px + (331 - 18) * ((100vw - 375px) / (1920 - 375)));
+    --support-color: #999999;
+    --padding-adaptive: calc(18px + (331 - 18) * ((100vw - 1524px) / (1920 - 1524)));
   }

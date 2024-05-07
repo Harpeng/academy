@@ -1,0 +1,7 @@
+.inform__filesize {
+    font-weight: 400;
+    font-size: clamp(0.75rem, 0.6893rem + 0.2589vw, 1rem);
+    padding-bottom: 3.5px;
+    color: var(--support-color);
+    margin: 0;
+}

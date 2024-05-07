@@ -1,0 +1,44 @@
+.statistics__scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    padding: 57px 0 57px 30px;
+    overflow-x: scroll;
+}
+
+@media screen and (max-width: 1524px) {
+    .statistics__scroller {
+        margin-left: 120px;
+        padding-bottom: 37px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .statistics__scroller {
+        margin-left: 40px;
+        padding-bottom: 17px;
+    }
+}
+
+
+.statistics__scroller::-webkit-scrollbar {
+    -webkit-appearance: none;
+    height: 10px;
+    background: #f4f4f6;
+    border-radius: 28px;
+    width: 420px;
+}
+
+.statistics__scroller::-webkit-scrollbar-track {
+    border-radius: 9px;
+    margin-block: 200px;
+    margin-inline: 300px;
+    width: 200px;
+}
+
+.statistics__scroller::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color); 
+    border-radius: 9px;
+    width: 200px;
+}
