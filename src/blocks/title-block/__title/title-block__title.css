@@ -1,0 +1,5 @@
+.title-block__title {
+    font-weight: 600;
+    font-size: clamp(2rem, 1.5752rem + 1.8123vw, 3.75rem);
+    color: var(--main-text-color);
+}

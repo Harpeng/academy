@@ -1,0 +1,11 @@
+.leader__name {
+    font-weight: 600;
+    font-size: clamp(1.25rem, 1.2197rem + 0.1294vw, 1.375rem);
+    margin: 40px 0 35px 0;
+}
+
+@media screen and (max-width: 1020px) {
+    .leader__name {
+        text-align: center;
+    }
+  }

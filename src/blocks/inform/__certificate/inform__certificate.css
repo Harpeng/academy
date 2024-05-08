@@ -1,0 +1,11 @@
+.inform__certificate {
+    max-width: 402px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1180px) {
+    .inform__certificate {
+        order: 2;
+    }
+}

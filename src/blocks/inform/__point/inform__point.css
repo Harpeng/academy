@@ -1,0 +1,7 @@
+.inform__point {
+    font-weight: 300;
+    font-size: clamp(1rem, 0.9393rem + 0.2589vw, 1.25rem);
+    line-height: 140%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}

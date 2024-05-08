@@ -1,0 +1,12 @@
+.inform__content {
+    display: flex;
+    gap: 80px;
+}
+
+@media screen and (max-width: 1180px) {
+    .inform__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}

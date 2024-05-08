@@ -1,15 +1,17 @@
 .about__list {
     max-width: 330px;
     list-style: none;
-    padding-left: 21px;
+    padding-left: 53px;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 46px;
     display: flex;
     flex-direction: column;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     .about__list {
         order: 2;
+        align-items: center;
+        align-self: center;
     }
 }

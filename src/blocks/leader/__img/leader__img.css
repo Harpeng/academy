@@ -1,0 +1,11 @@
+.leader__img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1020px) {
+    .leader__img {
+      order: 2;
+      width: calc(270px + (370 - 270) * ((100vw - 375px) / (1020 - 375)));
+    }
+  }

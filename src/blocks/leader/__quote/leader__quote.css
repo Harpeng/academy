@@ -1,0 +1,7 @@
+.leader__quote {
+    max-width: 803px;
+    border-radius: 15px;
+    background-color: var(--color-italic-block);
+    box-sizing: border-box;
+    padding: 20px;
+}

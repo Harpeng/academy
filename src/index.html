@@ -12,7 +12,7 @@
   <body class="page">
     <div class="page__container">
       <main class="main">
-        <section class="about icon">
+        <section class="about">
           <div class="about__content">
             <ul role="navigation" class="about__breadcrumb">
               <li class="about__route">
@@ -20,7 +20,7 @@
               </li>
               <li class="about__route">Об Академии</li>
             </ul>
-            <div class="about__title-block">
+            <div class="about__title-block title-block">
               <div class="about__icon icon icon__title"></div>
               <h1 class="about__title">Об Академии</h1>
             </div>
@@ -110,9 +110,159 @@
             </div>
           </div>
         </section>
-        <section class="statistics"></section>
-        <section class="leader"></section>
+        <section class="inform">
+          <div class="inform__content">
+            <div class="inform__certificate">
+              <img
+                src="<%=require('./images/license.png')%>"
+                alt="файл лицензии на работу"
+                loading="lazy"
+                class="inform__img"
+              />
+              <div class="inform__download">
+                <div class="inform__icon icon"></div>
+                <p class="inform__filesize">PDF 3,0 (MB)</p>
+              </div>
+            </div>
+            <div class="inform__articles">
+              <article class="inform__article">
+                <p class="inform__text">
+                  Академия повышения квалификации и профессиональной
+                  переподготовки является некоммерческой образовательной
+                  организацией, реализующей программы повышения квалификации,
+                  профессиональной переподготовки специалистов различных сфер и
+                  отраслей.
+                </p>
+                <p class="inform__text">
+                  Академия имеет государственную лицензию на право осуществления
+                  образовательной деятельности - серия 61101 № 0004472,
+                  регистрационный номер 6793 от 21 мая 2018 года, лицензию можно
+                  проверить на официальном сайте Федеральной службы по надзору в
+                  сфере образования и науки, введя ИНН Академии – 6161083143
+                </p>
+              </article>
+              <article class="inform__article">
+                <h3 class="inform__title">Миссия</h3>
+                <p class="inform__text">
+                  Была основана в 2017 году с целью эффективной подготовки
+                  кадров в системе послевузовского образования.
+                </p>
+              </article>
+              <article class="inform__article">
+                <h3 class="inform__title">Ценности</h3>
+                <ul class="inform__list">
+                  <li class="inform__item">
+                    <p class="inform__point">Практические знания</p>
+                  </li>
+                  <li class="inform__item">
+                    <p class="inform__point">«Живые встречи»</p>
+                  </li>
+                  <li class="inform__item">
+                    <p class="inform__point">Обучающая платформа</p>
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="statistics">
+          <div class="statistics__title-block title-block">
+            <div class="statistics__icon icon icon__title"></div>
+            <h1 class="statistics__title title-block__title">Статистика Академии</h1>
+          </div>
+          <div class="statistics__scroller">
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">324</h3>
+              <p class="statistics__text">количество преподавателей</p>
+            </article>
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">15 000+</h3>
+              <p class="statistics__text">подписчиков в социальных сетях</p>
+            </article>
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">1 914</h3>
+              <p class="statistics__text">
+                образовательный программ с видео лекциями
+              </p>
+            </article>
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">2</h3>
+              <p class="statistics__text">
+                организации академии Институт medskills, Клинический центр
+              </p>
+            </article>
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">40 000</h3>
+              <p class="statistics__text">
+                источников в закрытой библиотечной системе
+              </p>
+            </article>
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">33</h3>
+              <p class="statistics__text">
+                очных курсов тематических усовершенствований
+              </p>
+            </article>
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">33 946</h3>
+              <p class="statistics__text">дипломов и удостовереней выдано</p>
+            </article>
+            <article class="statistics__card">
+              <h3 class="statistics__number title-block__title title-block__title_pink">1</h3>
+              <p class="statistics__text">Академический корпус</p>
+            </article>
+          </div>
+        </section>
+        <section class="leader">
+          <div class="leader__wrapper">
+            <img
+              class="leader__img"
+              src="<%=require('./images/leader.jpg')%>"
+              loading="lazy"
+              alt="фотография директора академии"
+            />
+            <div class="leader__inform">
+              <div class="leader__title-block title-block">
+                <h2 class="leader__title title title-block__title">Директор Академии</h2>
+                <div class="leader__icon icon icon__title"></div>
+              </div>
+              <p class="leader__name">Протопопова Виктория Александровная</p>
+              <ul class="leader__progress">
+                <li class="leader__post">
+                  Кандидат педагогических наук, доцен
+                </li>
+                <li class="leader__post">Директор ЧОУ ДПО «АПКиПП»</li>
+                <li class="leader__post">Ректор АНО ВО «МедСкиллс»</li>
+              </ul>
+              <div class="leader__quote">
+                <p class="leader__text">
+                  «Я рада, что Ученый совет АНО ВО МедСкиллс начал свою работу
+                  Ученый совет – это важный орган управления вузом, который
+                  призван обеспечить его развитие и совершенствование.
+                </p>
+                <p class="leader__text">
+                  Я уверена, что члены ученого совета будут работать с полной
+                  отдачей, и мы вместе сможем добиться больших результатов»
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <div class="popup">
+        <div class="popup__block-image">
+          <img
+            class="popup__image"
+            src="<%=require('./images/license.png')%>"
+            alt="лицензия на работу"
+          />
+          <button
+            type="button"
+            class="popup__close popup__close_js-img"
+            aria-label="закрыть окно"
+          ></button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,0 +1,13 @@
+.leader__inform {
+    align-self: flex-end;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 1020px) {
+    .leader__inform {
+      order: 1;
+      width: 100%;
+      align-self: center;
+      align-content: center;
+    }
+  }

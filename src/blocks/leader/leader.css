@@ -1,0 +1,17 @@
+.leader {
+    padding: 32px 18px 120px var(--padding-adaptive-leader);
+}
+
+@media screen and (max-width: 1524px) {
+    .leader {
+      padding-left: 0;
+      padding-right: 0;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 1180px) {
+    .leader {
+      padding: 20px 0 40px 0;
+    }
+  }

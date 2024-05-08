@@ -1,0 +1,10 @@
+.statistics__card {
+  border-radius: 10px;
+  padding: calc(15px + (30 - 15) * ((100vw - 768px) / (1920 - 768)));
+  background-color: var(--main-color);
+  width: calc(260px + (420 - 260) * ((100vw - 768px) / (1920 - 768)));
+  box-shadow: 0 4px 78px 0 rgba(27, 26, 24, 0.1);
+  scroll-snap-align: start;
+  height: calc(140px + (220 - 140) * ((100vw - 768px) / (1920 - 768)));
+  box-sizing: border-box;
+}

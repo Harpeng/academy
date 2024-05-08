@@ -1,0 +1,12 @@
+.inform__img {
+    object-fit: contain;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+    .inform__img {
+        align-self: center;
+        width: 30vw;
+    }
+}
