@@ -1,0 +1,8 @@
+.leader__text {
+    line-height: 156%;
+    font-weight: 500;
+    font-style: italic;
+    font-size: clamp(1rem, 0.9697rem + 0.1294vw, 1.125rem);
+    margin: 0;
+    padding: 0;
+}

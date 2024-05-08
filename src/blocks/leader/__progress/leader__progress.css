@@ -1,0 +1,7 @@
+.leader__progress {
+    margin: 0 0 27px 0;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}

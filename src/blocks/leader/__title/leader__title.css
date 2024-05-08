@@ -1,0 +1,9 @@
+.leader__title {
+    margin: 0;
+}
+
+@media screen and (max-width: 429px) {
+    .leader__title {
+      text-align: right;
+    }
+  }

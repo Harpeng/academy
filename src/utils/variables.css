@@ -4,5 +4,7 @@
     --secondary-text-color: #000000;
     --secondary-color: #FD3C76;
     --support-color: #999999;
+    --color-italic-block: #f3f6ff;
     --padding-adaptive: calc(18px + (331 - 18) * ((100vw - 1524px) / (1920 - 1524)));
+    --padding-adaptive-leader: calc(18px + (392 - 18) * ((100vw - 1524px) / (1920 - 1524)));
   }

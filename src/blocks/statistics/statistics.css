@@ -1,3 +1,9 @@
 .statistics {
-    padding: 0 0 121px var(--padding-adaptive);
+    padding: 0 0 118px var(--padding-adaptive);
 }
+
+@media screen and (max-width: 1180px) {
+    .statistics{
+      padding: 20px 0 40px 0;
+    }
+  }
